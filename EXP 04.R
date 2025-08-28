@@ -1,0 +1,5 @@
+vector1<-c(1,2,3)
+vector2<-c(4,5,6)
+array_data<-array(c(vector1,vector2),dim=c(3,2),dimnames=list(c("Row1","Row2","Row3"),c("Col1","Col2")))
+print(array_data[1,1])
+print(array_data[2,2])

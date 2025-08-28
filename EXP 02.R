@@ -1,0 +1,12 @@
+matrix_5x4<-matrix(1:20,nrow=5,ncol=4,byrow=TRUE)
+rownames(matrix_5x4)<-paste("Row",1:5)
+colnames(matrix_5x4)<-paste("Col",1:4)
+matrix_3x3<-matrix(1:9,nrow=3,ncol=3,byrow=FALSE)
+rownames(matrix_3x3)<-paste("Row",1:3)
+colnames(matrix_3x3)<-paste("Col",1:3)
+matrix_2x2<-matrix(1:4,nrow=2,ncol=2,byrow=TRUE)
+rownames(matrix_2x2)<-paste("Row",1:2)
+colnames(matrix_2x2)<-paste("Col",1:2)
+matrix_5x4
+matrix_3x3
+matrix_2x2
