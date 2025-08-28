@@ -1,0 +1,5 @@
+library(ggplot2)
+data <- read.csv("advertising.csv")
+model <- lm(Sales ~ Spend, data = data)
+predictions <- predict(model, newdata = data)
+print(predictions)
